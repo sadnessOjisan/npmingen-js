@@ -1,6 +1,6 @@
 {
   "name": "npmingen",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "npm install generator",
   "main": "dist/index.js",
   "scripts": {
