@@ -1,8 +1,8 @@
 {
   "name": "npmingen",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "npm install generator",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,5 +23,12 @@
   },
   "dependencies": {
     "request": "^2.88.2"
-  }
+  },
+  "bin": {
+    "npmingen": "dist/index.js",
+    "npmingen-js": "dist/index.js"
+  },
+  "files": [
+    "dist/"
+  ]
 }
