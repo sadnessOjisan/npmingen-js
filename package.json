@@ -1,0 +1,27 @@
+{
+  "name": "npmingen",
+  "version": "1.0.0",
+  "description": "npm install generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sadnessOjisan/npmingen-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sadnessOjisan/npmingen-js/issues"
+  },
+  "homepage": "https://github.com/sadnessOjisan/npmingen-js#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.14",
+    "@types/request": "^2.48.5",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
